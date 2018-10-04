@@ -4,8 +4,19 @@
   "description": "Starting React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "Junaid",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
 }
